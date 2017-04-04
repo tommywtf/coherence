@@ -14,7 +14,7 @@ import java.util.Set;
  */
 public class CoherenceClient1 {
 
-    private static final String CACHE_NAME = "ITD_REPORT_CACHE";
+    private static final String CACHE_NAME = "REPORT_CACHE";
 
     public static void main(String[] args) throws IOException {
 

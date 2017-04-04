@@ -18,7 +18,7 @@ public class CoherenceInsert {
         CacheFactory.ensureCluster();
         NamedCache<Key, Order> cache = CacheFactory.getCache(CACHE_NAME);
 
-        String[] userId = {"tommy", "joe", "kirk", "chris", "stanley"};
+        String[] userId = {"tommy", "marco", "kirk", "julien", "stanley"};
         String[] symbol = {"0005.HK", "0001.HK", "0939.HK"};
         int[] qty = {14800, 10000, 23000};
         double[] price = {63.5, 142, 6.21};
